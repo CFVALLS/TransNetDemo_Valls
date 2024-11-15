@@ -6,7 +6,7 @@
 #' @param pairs_df, genes_df
 #' @return A data frame (network) that is Puc compatiable
 #' @export
-Puc_compatible_network = function(pairs_df, genes_df){
+Puc_compatible_network = function(pairs_df, genes_df, foldchVar){
   #--------------------------------------------------------------------------------
   # calculate PUC
   #--------------------------------------------------------------------------------
